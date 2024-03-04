@@ -1,4 +1,4 @@
-package com.abadzheva.roomwordsamplejava.Data;
+package com.abadzheva.roomwordsamplejava.data;
 
 import android.content.Context;
 
@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.abadzheva.roomwordsamplejava.Models.Word;
+import com.abadzheva.roomwordsamplejava.models.Word;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

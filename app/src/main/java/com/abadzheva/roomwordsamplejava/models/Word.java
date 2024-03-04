@@ -1,4 +1,4 @@
-package com.abadzheva.roomwordsamplejava.Models;
+package com.abadzheva.roomwordsamplejava.models;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
