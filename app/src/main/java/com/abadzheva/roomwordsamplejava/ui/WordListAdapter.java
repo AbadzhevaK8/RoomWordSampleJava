@@ -26,16 +26,16 @@ public class WordListAdapter extends ListAdapter<Word, WordViewHolder> {
         holder.bind(current.getWord());
     }
 
-    static class WordDiff extends DiffUtil.ItemCallback<Word> {
+    public static class WordDiff extends DiffUtil.ItemCallback<Word> {
 
         @Override
         public boolean areItemsTheSame(@NonNull Word oldItem, @NonNull Word newItem) {
-            return false;
+            return oldItem == newItem;
         }
 
         @Override
         public boolean areContentsTheSame(@NonNull Word oldItem, @NonNull Word newItem) {
-            return false;
+            return oldItem.getWord().equals(newItem.getWord());
         }
     }
 }
