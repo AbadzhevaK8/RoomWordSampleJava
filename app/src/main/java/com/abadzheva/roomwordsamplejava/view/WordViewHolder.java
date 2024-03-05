@@ -1,4 +1,4 @@
-package com.abadzheva.roomwordsamplejava.ui;
+package com.abadzheva.roomwordsamplejava.view;
 
 import android.view.LayoutInflater;
 import android.view.View;

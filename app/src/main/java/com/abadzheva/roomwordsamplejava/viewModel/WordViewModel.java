@@ -1,12 +1,12 @@
-package com.abadzheva.roomwordsamplejava.ui.viewmodel;
+package com.abadzheva.roomwordsamplejava.viewModel;
 
 import android.app.Application;
 
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.abadzheva.roomwordsamplejava.data.WordRepository;
-import com.abadzheva.roomwordsamplejava.models.Word;
+import com.abadzheva.roomwordsamplejava.repository.WordRepository;
+import com.abadzheva.roomwordsamplejava.model.Word;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class WordViewModel extends AndroidViewModel {
         mAllWords = mRepository.getAllWords();
     }
 
-    LiveData<List<Word>> getAllWords() { return mAllWords; }
+    public LiveData<List<Word>> getAllWords() { return mAllWords; }
 
     public void insert(Word word) { mRepository.insert(word); }
 }

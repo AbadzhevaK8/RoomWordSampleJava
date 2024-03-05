@@ -1,4 +1,4 @@
-package com.abadzheva.roomwordsamplejava.ui;
+package com.abadzheva.roomwordsamplejava.view;
 
 import android.view.ViewGroup;
 
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
-import com.abadzheva.roomwordsamplejava.models.Word;
+import com.abadzheva.roomwordsamplejava.model.Word;
 
 public class WordListAdapter extends ListAdapter<Word, WordViewHolder> {
 

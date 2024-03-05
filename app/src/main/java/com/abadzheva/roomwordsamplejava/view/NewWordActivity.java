@@ -1,4 +1,4 @@
-package com.abadzheva.roomwordsamplejava.ui;
+package com.abadzheva.roomwordsamplejava.view;
 
 import android.content.Intent;
 import android.os.Bundle;

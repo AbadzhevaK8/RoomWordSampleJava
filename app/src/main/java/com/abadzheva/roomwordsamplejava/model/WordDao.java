@@ -1,4 +1,4 @@
-package com.abadzheva.roomwordsamplejava.data;
+package com.abadzheva.roomwordsamplejava.model;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.abadzheva.roomwordsamplejava.models.Word;
+import com.abadzheva.roomwordsamplejava.model.Word;
 
 import java.util.List;
 

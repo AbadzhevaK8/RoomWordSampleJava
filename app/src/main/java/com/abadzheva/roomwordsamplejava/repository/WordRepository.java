@@ -1,11 +1,13 @@
-package com.abadzheva.roomwordsamplejava.data;
+package com.abadzheva.roomwordsamplejava.repository;
 
 
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
 
-import com.abadzheva.roomwordsamplejava.models.Word;
+import com.abadzheva.roomwordsamplejava.model.Word;
+import com.abadzheva.roomwordsamplejava.model.WordDao;
+import com.abadzheva.roomwordsamplejava.model.WordRoomDatabase;
 
 import java.util.List;
 
