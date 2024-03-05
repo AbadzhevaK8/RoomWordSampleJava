@@ -1,5 +1,6 @@
 package com.abadzheva.roomwordsamplejava.data;
 
+
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
